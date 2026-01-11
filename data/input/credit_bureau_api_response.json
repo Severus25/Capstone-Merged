@@ -1,0 +1,62 @@
+[
+    {
+        "customer_id": "CUST1000",
+        "credit_score": 754,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1001",
+        "credit_score": 791,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1002",
+        "credit_score": 692,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1003",
+        "credit_score": 674,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1004",
+        "credit_score": 801,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1005",
+        "credit_score": 748,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1006",
+        "credit_score": 754,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1007",
+        "credit_score": 728,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1008",
+        "credit_score": 702,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    },
+    {
+        "customer_id": "CUST1009",
+        "credit_score": 793,
+        "bureau": "Experian",
+        "last_updated": "2025-12-02T00:00:00"
+    }
+]

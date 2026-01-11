@@ -1,0 +1,108 @@
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] - ================================================================================
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] - === STARTING COMPLETE CUSTOMER CREDIT ASSESSMENT PROCESS ===
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] - ================================================================================
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] - 
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] - Workflow Sequence:
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] -   1. Exposure Aggregator Agent
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] -   2. Risk Scoring Agent
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] -   3. Limit Setter Agent
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] -   4. Merger Agent
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] -   5. Audit Logger Agent
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] - 
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] - ================================================================================
+2026-01-12 01:12:19,382 - WorkflowOrchestrator - [INFO] - 
+>>> STAGE 1: EXECUTING EXPOSURE AGGREGATOR AGENT...
+2026-01-12 01:12:19,405 - ExposureAggregator01 - [INFO] - Azure OpenAI initialized successfully
+2026-01-12 01:12:19,405 - ExposureAggregator01 - [INFO] - ============================================================
+2026-01-12 01:12:19,405 - ExposureAggregator01 - [INFO] - === STARTING ExposureAggregator01 ===
+2026-01-12 01:12:19,405 - ExposureAggregator01 - [INFO] - ============================================================
+2026-01-12 01:12:19,405 - ExposureAggregator01 - [INFO] - Perception phase: Loading data sources...
+2026-01-12 01:12:19,405 - ExposureAggregator01 - [INFO] - Loading customer list from C:\Users\abhij\Downloads\customer-credit-assessment-github\data\input\customer_id_list.csv...
+2026-01-12 01:12:19,405 - ExposureAggregator01 - [INFO] - Loading JSON AR extract from C:\Users\abhij\Downloads\customer-credit-assessment-github\data\input\ERP_AR_extract.json...
+2026-01-12 01:12:19,409 - ExposureAggregator01 - [INFO] - Loading CSV AR records from C:\Users\abhij\Downloads\customer-credit-assessment-github\data\input\open_AR_records_sample.csv...
+2026-01-12 01:12:19,412 - ExposureAggregator01 - [INFO] - Successfully loaded all data sources.
+2026-01-12 01:12:19,412 - ExposureAggregator01 - [INFO] - Reasoning phase: Aggregating exposure data...
+2026-01-12 01:12:19,412 - ExposureAggregator01 - [INFO] - Generated report for 10 customers
+2026-01-12 01:12:19,412 - ExposureAggregator01 - [INFO] - Total Exposure: $1,407,216.61
+2026-01-12 01:12:19,412 - ExposureAggregator01 - [INFO] - Average Exposure: $140,721.66
+2026-01-12 01:12:19,413 - ExposureAggregator01 - [INFO] - Action phase: Saving exposure report...
+2026-01-12 01:12:19,414 - ExposureAggregator01 - [INFO] - JSON report saved: C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\exposure_report.json
+2026-01-12 01:12:19,414 - ExposureAggregator01 - [INFO] - CSV report saved: C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\exposure_report.csv
+2026-01-12 01:12:19,414 - ExposureAggregator01 - [INFO] - Generating AI insights...
+2026-01-12 01:12:20,790 - httpx - [INFO] - HTTP Request: POST https://schoolofagenticaitraining.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview "HTTP/1.1 403 Forbidden"
+2026-01-12 01:12:20,792 - ExposureAggregator01 - [WARNING] - Failed to generate AI insights: Error code: 403 - {'error': {'code': '403', 'message': 'Access denied due to Virtual Network/Firewall rules.'}}
+2026-01-12 01:12:20,792 - ExposureAggregator01 - [INFO] - ============================================================
+2026-01-12 01:12:20,792 - ExposureAggregator01 - [INFO] - === ExposureAggregator01 COMPLETED SUCCESSFULLY ===
+2026-01-12 01:12:20,792 - ExposureAggregator01 - [INFO] - ============================================================
+2026-01-12 01:12:20,792 - WorkflowOrchestrator - [INFO] - >>> STAGE 1: EXPOSURE AGGREGATOR AGENT FINISHED.
+
+2026-01-12 01:12:20,792 - WorkflowOrchestrator - [INFO] - >>> STAGE 2: EXECUTING RISK SCORING AGENT...
+2026-01-12 01:12:20,792 - RiskScoring01 - [INFO] - ============================================================
+2026-01-12 01:12:20,792 - RiskScoring01 - [INFO] - === STARTING RiskScoring01 ===
+2026-01-12 01:12:20,792 - RiskScoring01 - [INFO] - ============================================================
+2026-01-12 01:12:20,792 - RiskScoring01 - [INFO] - Perception phase: Loading data sources...
+2026-01-12 01:12:20,792 - RiskScoring01 - [INFO] - Loading exposure data from C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\exposure_report.json...
+2026-01-12 01:12:20,822 - RiskScoring01 - [INFO] - Loading payment history from C:\Users\abhij\Downloads\customer-credit-assessment-github\data\input\payment_history.csv...
+2026-01-12 01:12:20,822 - RiskScoring01 - [INFO] - Loading credit bureau data from C:\Users\abhij\Downloads\customer-credit-assessment-github\data\input\credit_bureau_api_response.json...
+2026-01-12 01:12:20,822 - RiskScoring01 - [INFO] - Successfully loaded all data sources.
+2026-01-12 01:12:20,822 - RiskScoring01 - [INFO] - Reasoning phase: Calculating risk scores...
+2026-01-12 01:12:20,822 - RiskScoring01 - [INFO] - Processing 10 customers...
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] - Risk scoring complete for 10 customers
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] -   High Risk: 7
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] -   Medium Risk: 3
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] -   Low Risk: 0
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] -   Average Risk Score: 54.20
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] - Action phase: Saving risk scores...
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] - Risk scores saved: C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\risk_score_output.json
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] - Total customers processed: 10
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] - ============================================================
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] - === RiskScoring01 COMPLETED SUCCESSFULLY ===
+2026-01-12 01:12:20,839 - RiskScoring01 - [INFO] - ============================================================
+2026-01-12 01:12:20,839 - WorkflowOrchestrator - [INFO] - >>> STAGE 2: RISK SCORING AGENT FINISHED.
+
+2026-01-12 01:12:20,839 - WorkflowOrchestrator - [INFO] - >>> STAGE 3: EXECUTING LIMIT SETTER AGENT...
+2026-01-12 01:12:20,839 - LimitSetter01 - [INFO] - --- Agent execution started ---
+2026-01-12 01:12:20,839 - LimitSetter01 - [INFO] - Perception phase: Loading data sources...
+2026-01-12 01:12:20,858 - LimitSetter01 - [INFO] - Successfully loaded all data sources.
+2026-01-12 01:12:20,858 - LimitSetter01 - [INFO] - Reasoning phase: Processing 10 customers.
+2026-01-12 01:12:20,858 - LimitSetter01 - [INFO] - Generating summary for CUST1000 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:21,863 - LimitSetter01 - [INFO] - Generating summary for CUST1001 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:22,864 - LimitSetter01 - [INFO] - Generating summary for CUST1002 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:23,865 - LimitSetter01 - [INFO] - Generating summary for CUST1003 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:24,866 - LimitSetter01 - [INFO] - Generating summary for CUST1004 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:25,868 - LimitSetter01 - [INFO] - Generating summary for CUST1005 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:26,869 - LimitSetter01 - [INFO] - Generating summary for CUST1006 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:27,870 - LimitSetter01 - [INFO] - Generating summary for CUST1007 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:28,871 - LimitSetter01 - [INFO] - Generating summary for CUST1008 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:29,872 - LimitSetter01 - [INFO] - Generating summary for CUST1009 using LOCAL generator (Demo Mode)...
+2026-01-12 01:12:30,873 - LimitSetter01 - [INFO] - Action phase: Writing results for 10 customers to output file.
+2026-01-12 01:12:30,873 - LimitSetter01 - [INFO] - Action successful. Output written to 'C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\credit_limit_update.json'.
+2026-01-12 01:12:30,873 - LimitSetter01 - [INFO] - --- Agent execution finished ---
+2026-01-12 01:12:30,873 - WorkflowOrchestrator - [INFO] - >>> STAGE 3: LIMIT SETTER AGENT FINISHED.
+
+2026-01-12 01:12:30,873 - WorkflowOrchestrator - [INFO] - >>> STAGE 4: EXECUTING MERGER AGENT to create unified log...
+2026-01-12 01:12:30,873 - MergerAgent01 - [INFO] - --- Agent execution started ---
+2026-01-12 01:12:30,873 - MergerAgent01 - [INFO] - Simulating upstream agents by merging their outputs...
+2026-01-12 01:12:30,892 - MergerAgent01 - [INFO] - Action successful. Unified log file created/updated at 'C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\all_agents_logs.json'.
+2026-01-12 01:12:30,892 - MergerAgent01 - [INFO] - --- Agent execution finished ---
+2026-01-12 01:12:30,892 - WorkflowOrchestrator - [INFO] - >>> STAGE 4: MERGER AGENT FINISHED.
+
+2026-01-12 01:12:30,892 - WorkflowOrchestrator - [INFO] - >>> STAGE 5: EXECUTING AUDIT LOGGER AGENT...
+2026-01-12 01:12:30,892 - AuditLogger01 - [INFO] - --- Agent execution started ---
+2026-01-12 01:12:30,913 - AuditLogger01 - [INFO] - Action successful. Audit trails for 10 workflows written to 'C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\audit_trail.json'.
+2026-01-12 01:12:30,913 - AuditLogger01 - [INFO] - --- Agent execution finished ---
+2026-01-12 01:12:30,913 - WorkflowOrchestrator - [INFO] - >>> STAGE 5: AUDIT LOGGER AGENT FINISHED.
+
+2026-01-12 01:12:30,915 - WorkflowOrchestrator - [INFO] - ================================================================================
+2026-01-12 01:12:30,915 - WorkflowOrchestrator - [INFO] - === WORKFLOW FINISHED. ALL STAGES EXECUTED SUCCESSFULLY ===
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] - ================================================================================
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] - 
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] - Output Files:
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] -   - Exposure Report: C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\exposure_report.json
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] -   - Risk Scores: C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\risk_score_output.json
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] -   - Credit Limits: C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\credit_limit_update.json
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] -   - Unified Log: C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\all_agents_logs.json
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] -   - Audit Trail: C:\Users\abhij\Downloads\customer-credit-assessment-github\data\output\audit_trail.json
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] -   - System Log: C:\Users\abhij\Downloads\customer-credit-assessment-github\logs\agent.log
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] - 
+2026-01-12 01:12:30,916 - WorkflowOrchestrator - [INFO] - ================================================================================

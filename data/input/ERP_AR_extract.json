@@ -1,0 +1,456 @@
+{
+    "records": [
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV90720",
+            "AMOUNT": 3430.9,
+            "DUE_DATE": "2025-10-21",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV68919",
+            "AMOUNT": 6730.01,
+            "DUE_DATE": "2025-10-06",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV54908",
+            "AMOUNT": 3523.93,
+            "DUE_DATE": "2025-12-29",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV80832",
+            "AMOUNT": 8228.38,
+            "DUE_DATE": "2025-12-21",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV13479",
+            "AMOUNT": 2673.54,
+            "DUE_DATE": "2025-12-21",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV39223",
+            "AMOUNT": 5136.25,
+            "DUE_DATE": "2025-12-09",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV81247",
+            "AMOUNT": 7919.73,
+            "DUE_DATE": "2025-12-24",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV10432",
+            "AMOUNT": 9628.58,
+            "DUE_DATE": "2025-12-22",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV34283",
+            "AMOUNT": 1322.81,
+            "DUE_DATE": "2025-10-19",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV30615",
+            "AMOUNT": 2409.53,
+            "DUE_DATE": "2025-10-28",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV24012",
+            "AMOUNT": 5534.02,
+            "DUE_DATE": "2025-10-22",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV69612",
+            "AMOUNT": 9343.04,
+            "DUE_DATE": "2025-12-30",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV35527",
+            "AMOUNT": 2188.38,
+            "DUE_DATE": "2025-12-16",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV37637",
+            "AMOUNT": 4139.07,
+            "DUE_DATE": "2025-10-09",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV89032",
+            "AMOUNT": 9780.17,
+            "DUE_DATE": "2025-12-25",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV14934",
+            "AMOUNT": 4291.92,
+            "DUE_DATE": "2025-12-08",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV10846",
+            "AMOUNT": 6791.45,
+            "DUE_DATE": "2025-11-10",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "0-30 days",
+            "RISK_WEIGHT": 0.1
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV53885",
+            "AMOUNT": 8682.58,
+            "DUE_DATE": "2025-12-24",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV41768",
+            "AMOUNT": 4723.23,
+            "DUE_DATE": "2025-12-10",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1000",
+            "INVOICE_NO": "INV19258",
+            "AMOUNT": 4657.87,
+            "DUE_DATE": "2025-11-19",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "0-30 days",
+            "RISK_WEIGHT": 0.1
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV33656",
+            "AMOUNT": 9404.04,
+            "DUE_DATE": "2025-10-17",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV90090",
+            "AMOUNT": 6924.78,
+            "DUE_DATE": "2025-11-13",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "0-30 days",
+            "RISK_WEIGHT": 0.1
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV97197",
+            "AMOUNT": 7667.29,
+            "DUE_DATE": "2025-12-15",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV40841",
+            "AMOUNT": 6620.88,
+            "DUE_DATE": "2025-10-10",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV64621",
+            "AMOUNT": 2516.81,
+            "DUE_DATE": "2025-10-24",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV10178",
+            "AMOUNT": 8124.76,
+            "DUE_DATE": "2025-12-31",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV86845",
+            "AMOUNT": 9538.59,
+            "DUE_DATE": "2025-09-13",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": ">60 days",
+            "RISK_WEIGHT": 0.6
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV80508",
+            "AMOUNT": 8758.57,
+            "DUE_DATE": "2025-10-05",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV10672",
+            "AMOUNT": 3752.37,
+            "DUE_DATE": "2025-09-05",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": ">60 days",
+            "RISK_WEIGHT": 0.6
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV87162",
+            "AMOUNT": 5120.26,
+            "DUE_DATE": "2025-09-19",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": ">60 days",
+            "RISK_WEIGHT": 0.6
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV88381",
+            "AMOUNT": 8604.35,
+            "DUE_DATE": "2025-10-27",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV90376",
+            "AMOUNT": 2713.72,
+            "DUE_DATE": "2025-09-20",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": ">60 days",
+            "RISK_WEIGHT": 0.6
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV56246",
+            "AMOUNT": 1683.99,
+            "DUE_DATE": "2025-10-20",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV75379",
+            "AMOUNT": 8213.99,
+            "DUE_DATE": "2025-10-03",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV68942",
+            "AMOUNT": 8174.76,
+            "DUE_DATE": "2025-10-15",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV91922",
+            "AMOUNT": 3826.84,
+            "DUE_DATE": "2025-09-23",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": ">60 days",
+            "RISK_WEIGHT": 0.6
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV66270",
+            "AMOUNT": 5144.42,
+            "DUE_DATE": "2025-12-23",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV48091",
+            "AMOUNT": 9741.75,
+            "DUE_DATE": "2025-09-20",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": ">60 days",
+            "RISK_WEIGHT": 0.6
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV45820",
+            "AMOUNT": 8378.05,
+            "DUE_DATE": "2025-12-14",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1001",
+            "INVOICE_NO": "INV56472",
+            "AMOUNT": 6847.96,
+            "DUE_DATE": "2025-09-04",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": ">60 days",
+            "RISK_WEIGHT": 0.6
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV97403",
+            "AMOUNT": 8415.88,
+            "DUE_DATE": "2025-11-17",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "0-30 days",
+            "RISK_WEIGHT": 0.1
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV40213",
+            "AMOUNT": 7835.0,
+            "DUE_DATE": "2025-12-13",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV98283",
+            "AMOUNT": 2623.41,
+            "DUE_DATE": "2025-10-20",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV89647",
+            "AMOUNT": 9678.7,
+            "DUE_DATE": "2025-10-07",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV66806",
+            "AMOUNT": 2561.16,
+            "DUE_DATE": "2025-10-06",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV98288",
+            "AMOUNT": 4417.45,
+            "DUE_DATE": "2025-10-20",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "31-60 days",
+            "RISK_WEIGHT": 0.3
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV33713",
+            "AMOUNT": 6186.42,
+            "DUE_DATE": "2025-11-27",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": "0-30 days",
+            "RISK_WEIGHT": 0.1
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV99327",
+            "AMOUNT": 5308.49,
+            "DUE_DATE": "2025-09-26",
+            "STATUS": "OVERDUE",
+            "AGING_BUCKET": ">60 days",
+            "RISK_WEIGHT": 0.6
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV89253",
+            "AMOUNT": 5938.0,
+            "DUE_DATE": "2025-12-08",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        },
+        {
+            "CUSTOMER_ID": "CUST1002",
+            "INVOICE_NO": "INV27636",
+            "AMOUNT": 9324.47,
+            "DUE_DATE": "2025-12-23",
+            "STATUS": "OPEN",
+            "AGING_BUCKET": "Not Applicable",
+            "RISK_WEIGHT": 0.0
+        }
+    ],
+    "source": "SAP_AR_TABLE",
+    "timestamp": "2025-12-02T00:00:00"
+}
